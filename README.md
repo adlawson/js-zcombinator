@@ -2,7 +2,7 @@
 
 <img src="http://www.threadbombing.com/data/media/67/Recursive_shades.gif" alt="Z Combinator" align="right"/>
 
-**Version:** *0.1.0*<br/>
+**Version:** *0.1.1*<br/>
 **Master build:** [![Master branch build status][travis-master]][travis]<br/>
 **Develop build:** [![Master branch build status][travis-develop]][travis]<br/>
 

@@ -1,7 +1,7 @@
 {
     "name": "z-combinator",
     "description": "Z Combinator for self-referencing anonymous functions",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/adlawson/z-combinator",
 
     "keywords": [
