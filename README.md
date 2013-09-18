@@ -32,6 +32,27 @@ factorial(4) // => 24
 factorial(5) // => 120
 ```
 
+### Beware of infinite recursion! ###
+Just as you would with any other recursive function, make sure you include some sort of break condition.
+If you miss it out, the function will recur indefinitely.
+```js
+var z = require('z-combinator');
+
+z(function(fn) {
+    return function(n) {
+        return fn(n + 1); // <= Unconditional recursion
+    };
+})(0);
+// => Error: Maximum call stack exceeded
+
+z(function(fn) {
+    return function(n) {
+        return 100 <= n ? n : fn(n + 1); // <= Conditional recursion
+    };
+})(0);
+// => 100
+```
+
 
 ### Contributing ###
 I accept contributions to the source via Pull Request,
