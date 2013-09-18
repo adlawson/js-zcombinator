@@ -6,7 +6,7 @@
 **Master build:** [![Master branch build status][travis-master]][travis]<br/>
 **Develop build:** [![Master branch build status][travis-develop]][travis]<br/>
 
-This library provides a utility function to support the creation of a self referencing anonymous functions.<br/>
+This library provides a utility function to support the creation of self-referencing anonymous functions.<br/>
 It can be installed in whichever way you prefer, but I recommend [NPM][npm].
 
 The Z Combinator is the same, in principle, as the Y Combinator except it works in languages with applicative (eager)
