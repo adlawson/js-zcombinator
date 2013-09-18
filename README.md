@@ -4,7 +4,7 @@
 
 **Version:** *0.1.0*<br/>
 **Master build:** [![Master branch build status][travis-master]][travis]<br/>
-
+**Develop build:** [![Master branch build status][travis-develop]][travis]<br/>
 
 This library provides a utility function to support the creation of a self referencing anonymous functions.<br/>
 It can be installed in whichever way you prefer, but I recommend [NPM][npm].
@@ -60,6 +60,7 @@ You can find a copy of this license at http://www.opensource.org/licenses/mit or
 <!-- Links -->
 [travis]:         https://travis-ci.org/adlawson/z-combinator
 [travis-master]:  https://travis-ci.org/adlawson/z-combinator.png?branch=master
+[travis-develop]: https://travis-ci.org/adlawson/z-combinator.png?branch=develop
 [npm]:            https://npmjs.org/package/z-combinator
 [vagrant]:        http://vagrantup.com
 [license]:        /LICENSE
