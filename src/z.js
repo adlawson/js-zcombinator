@@ -36,7 +36,7 @@
         })(function(r) {
             return function(x) {
                 return fn(r(r))(x);
-            }
+            };
         });
     };
 
