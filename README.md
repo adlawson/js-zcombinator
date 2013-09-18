@@ -12,7 +12,8 @@ It can be installed in whichever way you prefer, but I recommend [NPM][npm].
 The Z Combinator is the same, in principle, as the Y Combinator except it works in languages with applicative (eager)
 order of execution (arguments are evaluated before the function call) just like JavaScript.
 
-For more information about the Z Combinator please read Douglas Crockford's ["The Little JavaScripter"][little-js].
+For more information about the Z Combinator please read [Fixed-point Combinators][wiki-combi] on Wikipedia or
+the brief mention in Douglas Crockford's ["The Little JavaScripter"][little-js].
 
 
 ### Basic usage ###
@@ -85,4 +86,5 @@ You can find a copy of this license at http://www.opensource.org/licenses/mit or
 [npm]:            https://npmjs.org/package/z-combinator
 [vagrant]:        http://vagrantup.com
 [license]:        /LICENSE
+[wiki-combi]:     http://en.wikipedia.org/wiki/Fixed-point_combinator
 [little-js]:      http://www.crockford.com/javascript/little.html
